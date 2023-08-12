@@ -1,0 +1,22 @@
+version: '3'
+name: ds
+services:
+  data_science:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: data_science
+    ports:
+      - "8888:8888"
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - .:/workspace
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: all
+            capabilities: [gpu]
