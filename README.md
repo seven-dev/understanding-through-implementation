@@ -40,3 +40,15 @@ https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/user-guide.html
 https://github.com/compose-spec/compose-spec/blob/master/deploy.md#devices
 https://www.tensorflow.org/install/pip#hardware_requirements
+
+### Useful commands
+
+```
+nvidia-smi
+nvidia-smi -lms 100
+gpustat -cp --watch
+```
+
+### ToDo list
+
+- Multivariate linear regression

@@ -5,7 +5,7 @@ FROM tensorflow/tensorflow:latest-gpu-jupyter
 RUN pip install --upgrade pip
 
 # Install necessary data science libraries
-RUN pip install pandas numpy scikit-learn matplotlib seaborn jupyterlab nvidia-cudnn-cu11==8.6.0.163
+RUN pip install pandas numpy scikit-learn matplotlib seaborn jupyterlab gpustat nvidia-cudnn-cu11==8.6.0.163
 
 # Set the working directory in the container
 WORKDIR /workspace
