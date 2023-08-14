@@ -52,3 +52,4 @@ gpustat -cp --watch
 ### ToDo list
 
 - Multivariate linear regression
+- Simple neural network
