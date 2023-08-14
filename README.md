@@ -55,3 +55,4 @@ gpustat -cp --watch
 - Simple neural network
 - Random forest
 - Transformer
+- GAN
