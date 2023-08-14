@@ -53,3 +53,4 @@ gpustat -cp --watch
 
 - Multivariate linear regression
 - Simple neural network
+- Random forest
