@@ -51,8 +51,10 @@ gpustat -cp --watch
 
 ### ToDo list
 
-- Multivariate linear regression
+- Multivariate linear regression, also using the normal equation, and polynomial and exponential regression
+- Exponential (or a variable function: log, etc) regression with a time difference and scaling, to see if it's possible to fit any function
 - Simple neural network
 - Random forest
 - Transformer
 - GAN
+- Dimension converter (like a semi-perfect dimensionality reduction tecnique) - train a neural network to represent some 3D data (cube) in 2D (maybe using encoders), without any missing information. Is that possible? How much more data would it take? If any n-dimension function could be reduced to a (giant) 2D function, maybe then it would be easier to visualize data and come up with better techniques.
