@@ -58,3 +58,5 @@ gpustat -cp --watch
 - Transformer
 - GAN
 - Dimension converter (like a semi-perfect dimensionality reduction tecnique) - train a neural network to represent some 3D data (cube) in 2D (maybe using encoders), without any missing information. Is that possible? How much more data would it take? If any n-dimension function could be reduced to a (giant) 2D function, maybe then it would be easier to visualize data and come up with better techniques.
+- OLS vs MLE (maximum likelihood estimation)
+- Neural network with fourier series? Other optimization/approximation methods?

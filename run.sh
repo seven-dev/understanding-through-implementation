@@ -13,4 +13,4 @@ while ! curl --silent --output /dev/null http://127.0.0.1:8888/lab; do
 done
 
 # open the browser window
-xdg-open http://127.0.0.1:8888/lab/tree/check-setup.ipynb
+xdg-open http://127.0.0.1:8888/lab
